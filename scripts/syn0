@@ -9,6 +9,4 @@ repo sync -j4 --force-sync --no-tags --no-clone-bundle
 
 echo "Syncing Rom and Device Sources..."
 sync
-echo "Syncing"
-echo "Syncing...."
 echo "Syncing......Done"
