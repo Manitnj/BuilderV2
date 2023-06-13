@@ -6,7 +6,7 @@ aria2c https://github.com/RT1648/Extras/releases/download/14.0.3.0.TEKMIXM/vendo
 ls
 cd ~/work
 . build/envsetup.sh
-#$EXTRA_CMD
+$EXTRA_CMD
 
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
