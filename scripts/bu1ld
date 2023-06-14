@@ -13,4 +13,4 @@ ccache -o compression=true
 ccache -z
 lunch "$LUNCH_COMBO"
 #$EXTRA_CMD1
-mka $TARGET -j8
+make $TARGET -j8
