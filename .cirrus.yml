@@ -3,7 +3,7 @@ env:
     DEVICE: X01BD
     OEM: asus
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt -b master
-    TARGET: bacon
+    TARGET: otapackage
     EXTRA_CMD: export SKIP_ABI_CHECKS=true && export SELINUX_IGNORE_NEVERALLOWS=true
     EXTRA_CMD1: export ARROW_GAPPS=true
     LUNCH_COMBO: arrow_${DEVICE}-userdebug
