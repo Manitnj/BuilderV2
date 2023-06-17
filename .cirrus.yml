@@ -1,14 +1,14 @@
 env:
-    MANIFEST: https://github.com/DerpFest-AOSP/manifest.git -b 13
-    DEVICE: X01BD
-    OEM: asus
-    LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt -b master
-    TARGET: derp
-    LUNCH_COMBO: derp_${DEVICE}-userdebug
-    OUTPUT: Derp*.zip
+    MANIFEST: https://github.com/Spark-Rom/manifest -b pyro
+    DEVICE: fleur
+    OEM: xiaomi
+    LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt
+    TARGET: bacon
+    LUNCH_COMBO: spark_${DEVICE}-userdebug
+    OUTPUT: S*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[d2dd0bb296948116fac1218dea0d7a3af1e2aacd2d151c8d15d4e4508b80ca3c0758ec94de1bfd411a1ae4b2f8517266]
-    URI: https://sourceforge.net/projects/fleur/files/ccache/Derpfest/ccache.tar.gz/download
+    URI: https://sourceforge.net/projects/fleur/files/ccache/ccache_spark.tar.gz/download
     ROM_U: 1
 
 task:
