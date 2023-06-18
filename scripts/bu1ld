@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ~/work/device/xiaomi/fleur/prebuilts
-aria2c https://github.com/RT1648/Extras/releases/download/13.0.9.0.SEKMIXM/vendor.img
+aria2c https://github.com/RT1648/Extras/releases/download/14.0.3.0.TEKMIXM/vendor.img
 cd ~/work
 . build/envsetup.sh
 export CCACHE_DIR=/tmp/ccache
