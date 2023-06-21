@@ -12,4 +12,4 @@ ccache -M 90G
 ccache -o compression=true
 ccache -z
 lunch "$LUNCH_COMBO"
-mka $TARGET -j$(nproc --all)
+mka $TARGET
