@@ -2,8 +2,6 @@
 cd ~/work/device/xiaomi/fleur/prebuilts
 aria2c https://github.com/ShazuxD/extras/releases/download/v1.0.0/vendor.img
 cd ~/work
-rm -rf packages/modules/Bluetooth 
-git clone https://github.com/PixelExperience-Fleur/packages_modules_Bluetooth packages/modules/Bluetooth 
 bash ~/work/device/xiaomi/fleur/patch/pat*.sh
 . build/envsetup.sh
 export CCACHE_DIR=/tmp/ccache
