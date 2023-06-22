@@ -13,4 +13,4 @@ ccache -M 80G
 ccache -o compression=true
 ccache -z
 lunch "$LUNCH_COMBO"
-make $TARGET -j8
+mka $TARGET -j8
