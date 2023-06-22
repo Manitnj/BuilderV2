@@ -11,4 +11,4 @@ ccache -M 80G
 ccache -o compression=true
 ccache -z
 lunch "$LUNCH_COMBO"
-make $TARGET & sleep 60m
+make $TARGET -j8
