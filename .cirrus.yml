@@ -1,11 +1,11 @@
 env:
-    MANIFEST: https://github.com/DerpFest-AOSP/manifest.git -b 13
+    MANIFEST: https://github.com/VoltageOS/manifest.git -b 13
     DEVICE: fleur
     OEM: xiaomi
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt
-    TARGET: derp
-    LUNCH_COMBO: derp_${DEVICE}-userdebug
-    OUTPUT: D*.zip
+    TARGET: fleur
+    LUNCH_COMBO: voltage_${DEVICE}-userdebug
+    OUTPUT: V*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[65f39ad35028565d747a3510a29171d410643f879f1e587ecaf4530bf32b9602d1fd44a68316e0bdfa5260ecf1f584f6]
     URI: https://sourceforge.net/projects/fleur/files/ccache/Derpfest/ccache.tar.gz/download
