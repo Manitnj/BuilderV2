@@ -1,13 +1,16 @@
 #!/bin/bash
 cd ~/work/device/xiaomi/fleur/prebuilts
+ls
 aria2c https://github.com/ShazuxD/extras/releases/download/v1.0.0/vendor.img
+ls
 cd ~/work
 bash ~/work/device/xiaomi/fleur/patch/pat*.sh
+ls
 . build/envsetup.sh
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
-ccache -M 80G
+ccache -M 100G
 ccache -o compression=true
 ccache -z
 lunch "$LUNCH_COMBO"
