@@ -3,6 +3,8 @@ cd ~/work/device/xiaomi/fleur/prebuilts
 aria2c https://github.com/ShazuxD/extras/releases/download/v1.0.0/vendor.img
 ls
 cd ~/work
+rm -rf system/bpf
+git clone https://github.com/PixelExperience/system_bpf.git system/bpf
 bash device/xiaomi/fleur/patch/patch.sh
 . build/envsetup.sh
 export CCACHE_DIR=/tmp/ccache
