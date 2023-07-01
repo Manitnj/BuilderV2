@@ -17,4 +17,4 @@ ccache -M 60G
 ccache -o compression=true
 ccache -z
 lunch "$LUNCH_COMBO"
-make $TARGET -j8
+make dist
