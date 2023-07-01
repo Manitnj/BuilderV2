@@ -1,15 +1,15 @@
 env:
-    MANIFEST: https://github.com/Corvus-AOSP/android_manifest.git -b 13
+    MANIFEST: https://github.com/VoltageOS/manifest.git -b 13
     DEVICE: fleur
     OEM: xiaomi
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt
-    TARGET: corvus
-    LUNCH_COMBO: corvus_${DEVICE}-userdebug
-    OUTPUT: C*.zip
+    TARGET: bacon
+    LUNCH_COMBO: voltage_${DEVICE}-userdebug
+    OUTPUT: v*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[677d11880f7bd42349506045b163eec5a0ecbc93aa0c73c7e241e7b1dd39340f2e813cc02e057c8ab062051f0f9dff43]
-    URI: example.com
-    ROM_U: 0
+    URI: https://sourceforge.net/projects/fleur/files/ccache/VoltageOS/ccache.tar.gz/download
+    ROM_U: 1
  
 task:
   name: "build"
