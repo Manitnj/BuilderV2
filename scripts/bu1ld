@@ -5,10 +5,7 @@ ls
 cd ~/work
 rm -rf system/bpf
 git clone https://github.com/PixelExperience/system_bpf.git system/bpf
-rm - rf frameworks/av
-rm -rf packages/modules/Bluetooth
-git clone https://github.com/ShazuxD/packages_modules_Bluetooth -b 13 packages/modules/Bluetooth --depth=1
-git clone https://github.com/ShazuxD/frameworks_av frameworks/av --depth=1
+bash ~/work/device/xiaomi/fleur/pat*/pat*.sh
 . build/envsetup.sh
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
