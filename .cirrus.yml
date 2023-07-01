@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/VoltageOS/manifest.git -b 13
+    MANIFEST: https://github.com/Corvus-AOSP/android_manifest.git -b 13
     DEVICE: fleur
     OEM: xiaomi
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt
