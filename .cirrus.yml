@@ -5,7 +5,7 @@ env:
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt
     TARGET: bacon
     LUNCH_COMBO: octavi_${DEVICE}-userdebug
-    OUTPUT: o*.zip
+    OUTPUT: O*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[677d11880f7bd42349506045b163eec5a0ecbc93aa0c73c7e241e7b1dd39340f2e813cc02e057c8ab062051f0f9dff43]
     URI: exmaple.com
