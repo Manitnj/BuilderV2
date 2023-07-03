@@ -1,8 +1,9 @@
 #!/bin/bash
 cd ~/work/device/xiaomi/fleur/prebuilts
-aria2c https://github.com/ShazuxD/extras/releases/download/v1.0.2/vendor.img
+aria2c https://github.com/RT1648/Extras/releases/download/13.0.8.0.SKEMIXM/vendor.img
 ls
 cd ~/work
+bash ~/work/device/xiaomi/fleur/patch/patch.sh
 . build/envsetup.sh
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
