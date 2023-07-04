@@ -5,8 +5,8 @@ ls
 cd ~/work
 rm -rf android/frameworks/av
 git clone https://github.com/RT1648/android_frameworks_av.git android/frameworks/av
-rm -rf android/packages/modules/Bluetooth
-git clone https://github.com/RT1648/android_packages_modules_Bluetooth.git android/packages/modules/Bluetooth
+#rm -rf android/packages/modules/Bluetooth
+#git clone https://github.com/RT1648/android_packages_modules_Bluetooth.git android/packages/modules/Bluetooth
 . build/envsetup.sh
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
