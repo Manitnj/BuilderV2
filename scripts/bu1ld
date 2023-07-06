@@ -3,10 +3,6 @@ cd ~/work/device/xiaomi/fleur/prebuilts
 aria2c https://github.com/RT1648/Extras/releases/download/13.0.8.0.SKEMIXM/vendor.img
 ls
 cd ~/work
-rm -rf android/frameworks/av
-git clone https://github.com/RT1648/Octavi_frameworks_av.git android/frameworks/av
-rm -rf android/packages/modules/Bluetooth
-git clone https://github.com/RT1648/Octavi_packages_modules_Bluetooth.git android/packages/modules/Bluetooth
 . build/envsetup.sh
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
