@@ -1,14 +1,14 @@
 env:
-    MANIFEST: https://github.com/Havoc-OS/android_manifest.git -b thirteen --git-lfs
+    MANIFEST: https://github.com/Evolution-X/manifest -b tiramisu
     DEVICE: fleur
     OEM: xiaomi
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt
-    TARGET: bacon
-    LUNCH_COMBO: havoc_${DEVICE}-userdebug
-    OUTPUT: H*.zip
+    TARGET: evolution 
+    LUNCH_COMBO: evolution_${DEVICE}-userdebug
+    OUTPUT: e*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[c15b879b192b192e8cec4b2c794a9511748d8f22b74874f9cd6f1043be72a091bc4aef1a3fa93079fb9b90e2da23b5eb]
-    URI: example.com
+    URI: idk.com
     ROM_U: 0
  
 task:
