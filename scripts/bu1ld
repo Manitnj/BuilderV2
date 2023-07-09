@@ -3,11 +3,6 @@ cd ~/work/device/xiaomi/fleur/prebuilts
 aria2c https://github.com/RT1648/Extras/releases/download/13.0.8.0.SKEMIXM/vendor.img
 ls
 cd ~/work
-#rm -rf system/bpf
-#git clone https://github.com/PixelExperience/system_bpf.git system/bpf
-cd vendor/config
-wget https://temp.sh/bkCvA/common_full_phone.mk
-cd ~/work
 . build/envsetup.sh
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
