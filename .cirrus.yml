@@ -7,7 +7,7 @@ env:
     LUNCH_COMBO: superior_${DEVICE}-userdebug
     OUTPUT: S*.zip
     CLO: idl:ci
-    CLO_1: ENCRYPTED[677d11880f7bd42349506045b163eec5a0ecbc93aa0c73c7e241e7b1dd39340f2e813cc02e057c8ab062051f0f9dff43]
+    CLO_1: ENCRYPTED[c15b879b192b192e8cec4b2c794a9511748d8f22b74874f9cd6f1043be72a091bc4aef1a3fa93079fb9b90e2da23b5eb]
     URI: example.com
     ROM_U: 0
  
