@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/Havoc-OS/android_manifest.git
+    MANIFEST: https://github.com/Havoc-OS/android_manifest.git -b thirteen --git-lfs
     DEVICE: fleur
     OEM: xiaomi
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt
