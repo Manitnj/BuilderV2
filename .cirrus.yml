@@ -1,11 +1,11 @@
 env:
-    MANIFEST: https://github.com/Havoc-OS/android_manifest.git -b thirteen --git-lfs
+    MANIFEST: https://github.com/AOSPA/manifest -b topaz
     DEVICE: fleur
     OEM: xiaomi
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt
     TARGET: bacon
-    LUNCH_COMBO: octavi_${DEVICE}-userdebug
-    OUTPUT: H*.zip
+    LUNCH_COMBO: aospa_${DEVICE}-userdebug
+    OUTPUT: a*.zip
     CLO: idl:ci
     CLO_1: ENCRYPTED[677d11880f7bd42349506045b163eec5a0ecbc93aa0c73c7e241e7b1dd39340f2e813cc02e057c8ab062051f0f9dff43]
     URI: https://sourceforge.net/projects/fleur/files/ccache/Octavi/ccache.tar.gz/download
