@@ -5,7 +5,8 @@ ls
 cd ~/work
 #rm -rf system/bpf
 #git clone https://github.com/PixelExperience/system_bpf.git system/bpf
-. build/envsetup.sh
+#. build/envsetup.sh
+./rom-build.sh
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
