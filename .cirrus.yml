@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/Evolution-X/manifest -b tiramisu
+    MANIFEST: https://github.com/Evolution-X/manifest -b tiramisu-jem
     DEVICE: fleur
     OEM: xiaomi
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt
