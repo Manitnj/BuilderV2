@@ -12,4 +12,4 @@ ccache -o compression=true
 ccache -z
 . build/envsetup.sh
 lunch "$LUNCH_COMBO"
-mka $TARGET -j31
+mka $TARGET -j7
