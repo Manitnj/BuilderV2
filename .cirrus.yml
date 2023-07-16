@@ -18,7 +18,7 @@ task:
   container:
       image: shazuxdd/ubuntu:latest
       cpu: 8
-      memory: 30G
+      memory: 32G
   Storage-Checker_script:
       - ./scripts/d0wnl0ad
   Sync_script:
