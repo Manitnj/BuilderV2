@@ -17,8 +17,8 @@ task:
   timeout_in: 120m
   container:
       image: shazuxdd/ubuntu:latest
-      cpu: 4
-      memory: 32G
+      cpu: 6
+      memory: 24G
   Storage-Checker_script:
       - ./scripts/d0wnl0ad
   Sync_script:
