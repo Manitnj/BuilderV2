@@ -4,6 +4,7 @@ env:
     OEM: xiaomi
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt
     TARGET: bacon
+    EXTRA_CMD: export SKIP_ABI_CHECKS=true
     LUNCH_COMBO: lineage_${DEVICE}-userdebug
     OUTPUT: H*.zip
     CLO: idl:ci
