@@ -3,6 +3,10 @@ cd ~/work/device/xiaomi/fleur/prebuilts
 aria2c https://github.com/RT1648/Extras/releases/download/13.0.8.0.SKEMIXM/vendor.img
 ls
 cd ~/work
+rm -rf packages/modules/Bluetooth
+rm -rf frameworks/av
+git clone https://github.com/RT1648/packages_modules_Bluetooth.git packages/modules/Bluetooth
+git clone https://github.com/RT1648/frameworks_av.git frameworks/av
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
