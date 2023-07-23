@@ -1,16 +1,16 @@
 env:
-    MANIFEST: https://github.com/DerpFest-AOSP/manifest.git -b 13
+    MANIFEST: https://github.com/Colt-Enigma/platform_manifest -b c13.1
     DEVICE: fleur
     OEM: xiaomi
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt
-    TARGET: derp
+    TARGET: colt
     EXTRA_CMD: export SKIP_ABI_CHECKS=true
-    LUNCH_COMBO: derp_${DEVICE}-userdebug
-    OUTPUT: D*.zip
+    LUNCH_COMBO: colt_${DEVICE}-userdebug
+    OUTPUT: C*.zip
     CLO: 1:ci
     CLO_1: ENCRYPTED[3d6ae16d69e2cc6593dda8e2cf1fe1a3921ce4224b225573b898e456ae9bd5e557dc84aea50841f70f254c9cc6ea62c6]
-    URI: https://sourceforge.net/projects/fleur/files/ccache/Derpfest/ccache.tar.gz/download
-    ROM_U: 1
+    URI: example.com
+    ROM_U: 0
  
 task:
   name: "build"
