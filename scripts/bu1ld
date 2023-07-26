@@ -1,10 +1,5 @@
 #!/bin/bash
-cd ~/work/device/xiaomi/fleur/prebuilts
-aria2c https://github.com/RT1648/Extras/releases/download/13.0.8.0.SKEMIXM/vendor.img
-ls
 cd ~/work
-rm -rf system/bpf
-git clone https://github.com/PixelExperience/system_bpf.git system/bpf
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
@@ -13,4 +8,4 @@ ccache -o compression=true
 ccache -z
 . build/envsetup.sh
 lunch "$LUNCH_COMBO"
-make $TARGET -j8
+mka $TARGET -j7
