@@ -1,15 +1,14 @@
 env:
-    MANIFEST: https://github.com/Colt-Enigma/platform_manifest -b c13.1
-    DEVICE: fleur
-    OEM: xiaomi
-    LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt
-    TARGET: colt
-    EXTRA_CMD: export SKIP_ABI_CHECKS=true
-    LUNCH_COMBO: colt_$DEVICE-userdebug
-    OUTPUT: C*.zip
-    CLO: 1:ci
-    CLO_1: ENCRYPTED[3d6ae16d69e2cc6593dda8e2cf1fe1a3921ce4224b225573b898e456ae9bd5e557dc84aea50841f70f254c9cc6ea62c6]
-    URI: https://sourceforge.net/projects/x01bd-asus/files/Extras/ccache.tar.gz/download
+    MANIFEST: https://github.com/Evolution-X/manifest -b tiramisu
+    DEVICE: X01BD
+    OEM: asus
+    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest1
+    TARGET: bacon
+    LUNCH_COMBO: evolution_${DEVICE}-userdebug
+    OUTPUT: E*.zip
+    CLO: #1:X01BD
+    CLO_1: #ENCRYPTED[c3b28d2575b189339fc2665961989a234d6448715e90fbb3d0b1a35dc5ee9a7ff42db2d3d53e8bc79f0aedfef2891305]
+    URI: https://sourceforge.net/projects/ccachex01bd/files/evo/ccache.tar.gz/download
     ROM_U: 1
  
 task:
