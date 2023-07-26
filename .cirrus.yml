@@ -2,7 +2,7 @@ env:
     MANIFEST: https://github.com/Evolution-X/manifest -b tiramisu
     DEVICE: X01BD
     OEM: asus
-    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest1
+    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
     TARGET: bacon
     LUNCH_COMBO: evolution_${DEVICE}-userdebug
     OUTPUT: E*.zip
