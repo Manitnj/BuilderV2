@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/SuperiorOS/manifest.git -b thirteen -b alpha-13 --git-lfs
+    MANIFEST: https://github.com/SuperiorOS/manifest.git -b thirteen
     DEVICE: X01BD
     OEM: asus
     LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
@@ -9,7 +9,7 @@ env:
     CLO: 1:X01BD
     CLO_1: ENCRYPTED[c3b28d2575b189339fc2665961989a234d6448715e90fbb3d0b1a35dc5ee9a7ff42db2d3d53e8bc79f0aedfef2891305]
     URI: #https://sourceforge.net/projects/ccachex01bd/files/alpha/ccache.tar.gz/download
-    ROM_U: 1
+    ROM_U: 0
  
 task:
   name: "build"
