@@ -4,6 +4,8 @@ mkdir -p ~/work
 cd ~/work
 repo init --depth=1 -u $MANIFEST
 git clone $LOCAL_MANIFEST .repo/local_manifests
+rm -rf device/asus/X01BD
+git clone https://github.com/ManitnjG/android_device_asus_X01BD.git -b sup device/asus/X01BD
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle -j8
 }
 
