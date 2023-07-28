@@ -8,8 +8,7 @@ ccache -o compression=true
 ccache -z
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 export ALLOW_MISSING_DEPENDENCIES=true 
-rm -rf device/asus/X01BD
-git clone https://github.com/ManitnjG/android_device_asus_X01BD.git -b superior
+
 . build/envsetup.sh
 lunch "$LUNCH_COMBO"
 m $TARGET -j8
