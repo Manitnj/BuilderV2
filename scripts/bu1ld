@@ -5,7 +5,7 @@ git clone https://github.com/ManitnjG/android_device_asus_X01BD.git -b alpha dev
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
-ccache -M 150G
+ccache -M 180G
 ccache -o compression=true
 ccache -z
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
