@@ -1,5 +1,5 @@
 env:
-    MANIFEST: MANIFEST: https://github.com/Havoc-OS/android_manifest.git -b thirteen --git-lfs 
+    MANIFEST: https://github.com/Havoc-OS/android_manifest.git -b thirteen --git-lfs 
     DEVICE: X01BD
     OEM: asus
     LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
