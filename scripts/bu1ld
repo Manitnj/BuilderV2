@@ -10,4 +10,5 @@ export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 export ALLOW_MISSING_DEPENDENCIES=true 
 
 . build/envsetup.sh
-brunch "$TARGET" & sleep 102m
+lunch "$LUNCH_COMBO"
+mka  "$TARGET" & sleep 102m
