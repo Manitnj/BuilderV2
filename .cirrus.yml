@@ -1,5 +1,5 @@
 env:
-    MANIFEST: repo init -u https://github.com/VoltageOS/manifest.git -b 13
+    MANIFEST: https://github.com/VoltageOS/manifest.git -b 13
     DEVICE: X01BD
     OEM: asus
     LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest
