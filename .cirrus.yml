@@ -2,7 +2,7 @@ env:
     MANIFEST: https://github.com/Project-Elixir/manifest -b Tiramisu
     DEVICE: X01BD
     OEM: asus
-    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
+    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest1
     TARGET: bacon
     LUNCH_COMBO: aosp_${DEVICE}-userdebug
     OUTPUT: P*.zip
